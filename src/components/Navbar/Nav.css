@@ -6,6 +6,11 @@
     background-color: bisque;
     margin-bottom: 10px;
 }
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .left img{
     height: 80px;
     width: 80px;
@@ -20,5 +25,6 @@
     gap: 50px;
 }
 .right p{
-    font-size: large;
+    font-weight: bold;
+    font-size: 1.1rem;
 }

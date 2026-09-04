@@ -6,7 +6,7 @@ const Nav = () => {
             <nav className='nav-container'>
                 <div className='left'>
                     <img src={navImg} alt="" />
-                    <span></span>
+                    <span style={{textAlign:'center',font:'icon',fontWeight:'bolder',fontSize:'1.2rem',color:'red'}}>BURGER HUT</span>
                 </div>
                 <div className='right'>
                     <p>HOME</p>
