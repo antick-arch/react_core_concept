@@ -1,0 +1,24 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+.left img{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.right p{
+    font-size: large;
+}
