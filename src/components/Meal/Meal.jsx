@@ -5,12 +5,15 @@ const Meal = ({ fetchMeal }) => {
     const mealData = use(fetchMeal).meals;
     return (
         <div className="container">
-            <div className="card-container">
+            <div style={{width:'75%'}} className="card-container">
                 {
                     mealData.map(meal => (
                         <SingleMeal key={meal.idMeal} meal={meal}></SingleMeal>
                     ))
                 }
+            </div>
+            <div style={{width:'25%',backgroundColor:'gold'}} className="cart">
+                
             </div>
         </div>
     );
