@@ -4,6 +4,7 @@ const SingleMeal = ({meal}) => {
         <div className="card">
             <img src={meal.strMealThumb} alt={meal.strCategory} />
             <h2>{meal.strMeal}</h2>
+            <button>Add to cart</button>
         </div>
     );
 };
